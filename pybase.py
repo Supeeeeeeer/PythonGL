@@ -13,7 +13,7 @@ class PyGL:
     def render(self):
         """Render 2D image."""
         cw = self.cw
-        n = self.n
+        n = self.nn
         sqr = self.sqr
         for i in range(sqr):
             n+="x"
